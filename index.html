@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivo Botánico y de Restauración</title>
+    <title>Archivo Botánico para Tita</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
     
     <style>
-        /* Variables de color sobrias y elegantes */
         :root {
-            --bg-color: #F9F8F6; /* Blanco roto/crema tipo papel antiguo */
-            --text-main: #2C302E; /* Carbón oscuro, menos agresivo que el negro puro */
-            --text-muted: #59605B; /* Tono cenizo para notas y fuentes */
-            --accent: #8A9286; /* Verde salvia apagado */
+            --bg-color: #F9F8F6; 
+            --text-main: #2C302E; 
+            --text-muted: #59605B; 
+            --accent: #8A9286; 
             --border-color: #E2DFD8;
         }
 
@@ -35,12 +34,11 @@
         }
 
         .container {
-            max-width: 600px; /* Ancho optimizado para lectura en móvil y sobrio en escritorio */
+            max-width: 600px; 
             margin: 0 auto;
             padding: 3rem 1.5rem;
         }
 
-        /* --- SECCIÓN DE MENSAJE --- */
         .intro-section {
             text-align: center;
             margin-bottom: 4rem;
@@ -61,12 +59,11 @@
             text-align: left;
         }
 
-        /* --- CATÁLOGO DE FLORES --- */
         .flower-card {
             display: flex;
             flex-direction: column;
             margin-bottom: 3.5rem;
-            opacity: 0; /* Para la animación JS */
+            opacity: 0; 
             transform: translateY(25px);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
@@ -89,7 +86,14 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            filter: grayscale(10%) contrast(95%); /* Toque ligeramente vintage */
+            filter: grayscale(10%) contrast(95%);
+        }
+
+        .tita-img {
+            width: 100%;
+            height: 100%;
+            object-fit: auto;
+            filter: grayscale(10%) contrast(95%);
         }
 
         .flower-name {
@@ -101,19 +105,18 @@
         .flower-meaning {
             font-style: italic;
             color: var(--accent);
-            font-size: 1.1rem;
+            font-size: 1.05rem;
             margin-bottom: 1rem;
         }
 
         .flower-note {
             font-size: 1rem;
-            color: var(--text-muted);
+            color: var(--text-main);
             border-left: 2px solid var(--accent);
-            padding-left: 1rem;
-            margin-left: 0.5rem;
+            padding-left: 1.2rem;
+            margin-left: 0.2rem;
         }
 
-        /* --- SECCIÓN DE FUENTES --- */
         .sources-section {
             margin-top: 5rem;
             padding-top: 2rem;
@@ -131,6 +134,7 @@
         .sources-list {
             list-style-type: none;
             padding: 0;
+            margin: 0;
         }
 
         .sources-list li {
@@ -142,66 +146,88 @@
 
     <div class="container">
         <header class="intro-section">
-            <h1 class="intro-title">Archivo Botánico y de Restauración</h1>
+            <h1 class="intro-title">Archivo Botánico para Tita</h1>
             <div class="intro-text">
-                <p>Lili,</p>
-                <p>Sé que tu mente valora la investigación, las fuentes primarias y el esfuerzo intelectual por encima de los gestos vacíos. Preparé este archivo cifrado porque las palabras fáciles ya no son suficientes para lo que quiero demostrarte.</p>
-                <p>Este catálogo no es un adorno; es una decodificación de mis intenciones de hoy y de la estructura que quiero construir contigo. Tómate tu tiempo para leerlo.</p>
+                <p>Hola Tita.</p>
+                <p>Este arreglo que recibes hoy es especial, por lo regular te he regalado flores que ya vienen preparadas, siempre escojo las que a mi parecer son mas hermosas en el establecimiento (o las que si me alcanzan), esta vez como parte de un ejercicio de atención y compromiso hacia tí, mi amada Tita, decidí armar un arreglo con flores muy especificas las cuales tienen un significado.</p>
+                <p>Aquí te dejo cada una de ellas y su significado así como el mensaje que viene de mi parte.</p>
+                <p>Ojala sean de tu total agrado y disfrutes su compañía y sus aromas, tienen impresas todo el amor que te tengo cada día.</p>
             </div>
         </header>
 
         <main>
             <article class="flower-card">
                 <div class="flower-img-container">
-                    <img src="tulipan_blanco.jpg" alt="Tulipán Blanco" class="flower-img">
+                    <img src="crisantemo_blanco.jpg" alt="Crisantemo Blanco" class="flower-img">
                 </div>
-                <h2 class="flower-name">Tulipán Blanco</h2>
-                <div class="flower-meaning">Significado histórico: Petición de perdón y reclamación de dignidad.</div>
+                <h2 class="flower-name">Crisantemo Blanco</h2>
+                <div class="flower-meaning">Código histórico: Verdad absoluta, honestidad y lealtad.</div>
                 <div class="flower-note">
-                    Elegí esta flor para representar la claridad de mi diagnóstico y mi responsabilidad. No busco borrar el pasado, sino pedirte perdón desde una postura de trabajo real en mí mismo, no desde el victimismo.
+                    <p>Con los crisantemos blancos quiero dejar constancia de la honestidad y la lealtad de mi amor y de mi persona hacia ti.</p>
+                    <p>En el lenguaje victoriano, esta flor representa la verdad innegable. Te la entrego para dar cierre definitivo a un ciclo de errores y dar inicio a algo totalmente nuevo, construido sobre una base limpia y transparente.</p>
+                    <p> Greenaway, Kate (1884), pagina 18 y 50.</p>
+                    <a href="https://casaplantavigo.com/blog/significado-crisantemos/" target="_blank">Más información, vease crisantemo blanco</a>
                 </div>
             </article>
 
             <article class="flower-card">
                 <div class="flower-img-container">
-                    <img src="margarita.jpg" alt="Margarita" class="flower-img">
+                    <img src="alstroemeria.jpg" alt="Astromelia" class="flower-img">
                 </div>
-                <h2 class="flower-name">Margarita</h2>
-                <div class="flower-meaning">Significado histórico: Verdad absoluta, lealtad e inocencia.</div>
+                <h2 class="flower-name">Alstroemeria</h2>
+                <div class="flower-meaning">Código histórico: Devoción, supervivencia ante la adversidad y lazos inquebrantables.</div>
                 <div class="flower-note">
-                    El código victoriano usaba la margarita para confirmar la lealtad inquebrantable. Esta es mi promesa documentada: un compromiso radical con la verdad, erradicando mis mecanismos de defensa y mentiras cobardes.
+                    <p>Con las astromelias dejo constancia del lazo fuerte y duradero que te extiendo. Quiero crear una relación de noviazgo en la que siempre puedas palpar mi compromiso con la vida que deseo tener contigo.</p>
+                    <p>Botánicamente, cada flor tiene exactamente seis pétalos. Cada uno de ellos simboliza las virtudes que imprimo en este arreglo: entendimiento, humor, paciencia, empatía, compromiso y respeto.</p>
+                    <a href="https://www.admagazine.com/articulos/alstroemeria-caracteristicas-cuidados-significado" target="_blank">Más información sobre la Alstroemeria</a>
                 </div>
             </article>
 
             <article class="flower-card">
                 <div class="flower-img-container">
-                    <img src="romero.jpg" alt="Romero" class="flower-img">
+                    <img src="lisianthus.jpg" alt="Lisianthus" class="flower-img">
                 </div>
-                <h2 class="flower-name">Romero</h2>
-                <div class="flower-meaning">Significado histórico: Recuerdo y presencia sostenida.</div>
+                <h2 class="flower-name">Lisianthus (Eustoma)</h2>
+                <div class="flower-meaning">Código histórico: Aprecio profundo, admiración y un vínculo para toda la vida.</div>
                 <div class="flower-note">
-                    Mi falla en retener nuestra memoria te lastimó profundamente. El romero simboliza mi nuevo sistema operativo: herramientas, alarmas y bitácoras para asegurar que no vuelva a perder de vista lo que es importante para ti.
+                    <p>Con el lisianthus quiero mostrarte mi agradecimiento y mi total admiración hacia tu hermosa persona.</p>
+                    <p>Me has dado y enseñado tanto que no puedo estar sino agradecidísimo cada día por el privilegio de conocerte e ir a tu lado.</p>
+                    <a href="https://www.interflora.es/blog/significado-flor-lisianthus/" target="_blank">Más información sobre el Lisianthus</a>
                 </div>
             </article>
 
             <article class="flower-card">
                 <div class="flower-img-container">
-                    <img src="flor_nube.jpg" alt="Gypsophila (Flor de Nube)" class="flower-img">
+                    <img src="gypsophila.jpg" alt="Gypsophila" class="flower-img">
                 </div>
-                <h2 class="flower-name">Gypsophila Paniculata</h2>
-                <div class="flower-meaning">Significado histórico: Pureza de intención y un nuevo comienzo.</div>
+                <h2 class="flower-name">Gypsophila Paniculata (Nube)</h2>
+                <div class="flower-meaning">Código histórico: Pureza de intención y limpieza de corazón.</div>
                 <div class="flower-note">
-                    Aunque es el marco del ramo, representa la limpieza que busco en nuestras interacciones. Comunicación directa, sin manipulaciones ni zonas grises.
+                    <p>Con esta pequeñita quiero manifestar la limpieza en nuestros corazones; renovarlos y hacerlos puros.</p>
+                    <p>Como lo pido en mis oraciones a Dios, busco que me conceda la claridad, la paciencia y la inteligencia necesarias para poder darte un amor más maduro y puro cada día.</p>
+                    <a href="https://www.picturethisai.com/es/language-flower/Gypsophila_paniculata.html" target="_blank">Más información sobre la Gypsophila</a>
+                </div>
+            </article>
+
+
+            <article class="flower-card">
+                <div class="tita-img-container">
+                    <img src="tita.jpg" alt="Tita" class="tita-img">
+                </div>
+                <h2 class="flower-name">Lili, la flor mas bella de todas</h2>
+                <div class="flower-meaning">Es una flor mexicana, la mas hermosa de todas.</div>
+                <div class="flower-note">
+                    <p>Tiene un aroma dulce y solar, es un aroma que solo un colibri puede percibir al libar de su nectar.</p>
+                    <p>Espero que disfrutes este arreglo y que te recuerde lo especial que eres para mí. Panterita Lunar, ojos de semillas de luz, de olor a dulce y sol y sabor a vainilla.</p>
                 </div>
             </article>
         </main>
 
         <footer class="sources-section">
-            <h3 class="sources-title">Fuentes de Investigación</h3>
-            <p>Para asegurar la precisión de este código, las definiciones históricas fueron curadas de las siguientes referencias botánicas y culturales:</p>
+            <h3 class="sources-title">Fuentes</h3>
             <ul class="sources-list">
-                <li><strong>1. Greenaway, Kate (1884).</strong> <em>The Language of Flowers</em>. Londres: George Routledge & Sons. (Base primaria para el código victoriano clásico).</li>
-                <li><strong>2. Dietz, S. Theresa (2020).</strong> <em>The Complete Language of Flowers: A Definitive and Illustrated History</em>. Wellfleet Press. (Consulta para la integración de especies modernas como la Gypsophila).</li>
+                    <li><strong>1. Greenaway, Kate (1884).</strong> <em>The Language of Flowers</em>. Londres: George Routledge & Sons. (Diccionario clásico para el Crisantemo). <a href="https://dn790007.ca.archive.org/0/items/languageofflower00prat/languageofflower00prat.pdf">Libro en PDF</a></li>
+                <li><strong>2. Dietz, S. Theresa (2020).</strong> <em>The Complete Language of Flowers: A Definitive and Illustrated History</em>. Wellfleet Press. (Consulta de significados modernos y evolución botánica para la Alstroemeria, Lisianthus y Gypsophila).</li>
             </ul>
         </footer>
     </div>
@@ -211,14 +237,14 @@
             const observerOptions = {
                 root: null,
                 rootMargin: '0px',
-                threshold: 0.15 // El elemento debe estar 15% visible para activar la animación
+                threshold: 0.15 
             };
 
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add('visible');
-                        observer.unobserve(entry.target); // Solo anima una vez
+                        observer.unobserve(entry.target); 
                     }
                 });
             }, observerOptions);
